@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 mt-4 bg-white">
+        <div>
+            <h3 class="text-center">Actualización de datos personales</h3>
+            <form action="" (submit)="onSubmit()" [formGroup]="dataForm" class="row" >
+                <div class="mb-3 col-12">
+                    <label for="cedula" class="form-label">Cedula</label>
+                    <input type="text" class="form-control" id="cedula" placeholder="0000000000" formControlName="cedula" maxlength="10" >
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="nombres" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="nombres" placeholder="Nombres completos" formControlName="nombres">
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="apellidos" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos" placeholder="Apellidos completos" formControlName="apellidos">
+                </div>
+                <div class="mb-3 col-3">
+                    <label for="edad" class="form-label">Edad</label>
+                    <input type="number" class="form-control" id="edad" formControlName="edad" min="0" >
+                </div>
+                <div class="mb-3 col-3">
+                    <label for="sexo" class="form-label">Sexo</label>
+                    <select class="form-select" id="sexo" formControlName="sexo">
+                        <option selected disabled class="text-secondary">Sexo</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                      </select>
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="celular" class="form-label">Celular</label>
+                    <input type="tel" class="form-control" id="celular" placeholder="0987654321" formControlName="celular" maxlength="10">
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="">Semestre</label>
+                    <select class="form-select" id="carrera" formControlName="semestre">
+                        <option selected disabled class="text-secondary">Semestre</option>
+                        <option value={{semestre.id}} *ngFor="let semestre of semestres" > {{semestre.nombre}} </option>
+                      </select>
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="">Carrera</label>
+                    <select class="form-select" id="carrera" formControlName="carrera">
+                        <option selected disabled class="text-secondary">Carrera</option>
+                        <option value={{carrera.id}} *ngFor="let carrera of carreras" > {{carrera.nombre}} </option>
+                      </select>
+                </div>
+                <div class="mb-3">
+                    <button class="btn text-bg-secondary mb-3" >Actualizar datos</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-3"></div>
+</div>
