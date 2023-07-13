@@ -2,7 +2,7 @@
 
 # Sistema de contravención contra el Pishing
 
-El sistema distrubuido fue desarrollado bajo tecnología Microsoft, .Net y Xamarin. Cuenta con una aplicación de escritorio y una app móvil. La app de escritorio gestiona productos ofertados por tiendas. Por otro lado la app móvil se encarga de la compra y el delivery de los productos por medio de un intermediario.
+
 El sistema fue desarrollado mediante windows con el uso de angular, y con el uso de kali linux. 
 
 ## Installation del sistema Web
@@ -27,4 +27,10 @@ Tendrás a tu disposición el apartado de escritorio.
 ### Imagen de la clonación de la Página 
 
 ![App Screenshot](https://github.com/DavidArcos007/PortafolioWeb/blob/main/assets/images/pishing.png)
+
+## Technologies
+***
+A list of technologies used within the project:
+* [Angular](https://example.com): Version 12.3 
+* [Kali Linux](https://example.com): Version 2.34
 
