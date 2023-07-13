@@ -18,7 +18,8 @@ Tendrás a tu disposición el apartado de escritorio.
 
 ## Desarrollado por:
 
+- [@DavidArcos007](https://github.com/DavidArcos007)
 - [@mmartinezu](https://github.com/mmartinezu)
 - [@Andresfl12350](https://github.com/Andresfl12350)
-- [@jarcos4997](https://github.com/jarcos4997)
+
 
