@@ -22,4 +22,9 @@ Tendrás a tu disposición el apartado de escritorio.
 - [@mmartinezu](https://github.com/mmartinezu)
 - [@Andresfl12350](https://github.com/Andresfl12350)
 
+## Imágenes del sistema distribuido
+
+### Imagen de la clonación d ela Página 
+
+![App Screenshot](https://github.com/DavidArcos007/PortafolioWeb/tree/main/assets/images/pishing.png)
 
