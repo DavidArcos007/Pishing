@@ -24,7 +24,7 @@ Tendrás a tu disposición el apartado de escritorio.
 
 ## Imágenes del sistema distribuido
 
-### Imagen de la clonación d ela Página 
+### Imagen de la clonación de la Página 
 
-![App Screenshot](https://github.com/DavidArcos007/PortafolioWeb/tree/main/assets/images/pishing.png)
+![App Screenshot](https://github.com/DavidArcos007/PortafolioWeb/blob/main/assets/images/pishing.png)
 
